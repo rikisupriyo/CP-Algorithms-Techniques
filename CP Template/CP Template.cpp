@@ -29,7 +29,6 @@ using namespace std;
 
 void yes() {cout<<"YES\n";}
 void no() {cout<<"NO\n";}
-bool prime(ll a) { if(a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) return (a%i==0)?0:1; }
 
 
 void solve(){
